@@ -6,9 +6,9 @@ import android.os.Vibrator;
 import android.util.AttributeSet;
 import android.widget.SeekBar;
 
-import com.arrow.support.preferences.CustomSecureSeekBarPreference;
+import com.octavi.support.preferences.SecureSettingSeekBarPreference;
 
-public class VibrationSeekBarPreference extends CustomSecureSeekBarPreference {
+public class VibrationSeekBarPreference extends SecureSettingSeekBarPreference {
 
     private final Vibrator mVibrator;
 
